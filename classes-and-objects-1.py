@@ -17,7 +17,7 @@ class Student:
         print("Age: ", self.age)
 
     def add_track(self, newTrack):
-        self.tracks.append(track) = newTrack
+        self.tracks.append(newTrack)
         print("Track: ", self.tracks)
 
     def get_score(self, newScore):
