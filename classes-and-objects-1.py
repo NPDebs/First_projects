@@ -17,7 +17,7 @@ class Student:
         print("Age: ", self.age)
 
     def add_track(self, newTrack):
-        self.tracks = newTrack
+        self.tracks.append(track) = newTrack
         print("Track: ", self.tracks)
 
     def get_score(self, newScore):
@@ -29,5 +29,5 @@ Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
 # Expected methods
 Bob.change_name("Kate")
 Bob.change_age(48)
-Bob.add_track(["FE","BE","UI/UX"])
+Bob.add_track("UI/UX")
 Bob.get_score(72.30)
